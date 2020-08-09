@@ -1,11 +1,9 @@
 <template>
   <div>
-    <!-- <div class="search-bar">
-      <input type="text" id="search-input" placeholder="Search" />
-    </div> -->
-
     <div v-bind:key="archive.id" v-for="archive in archives">
-      <h3>{{archive.name}}</h3>
+      <p>{{archive.name}}</p>
+      <p>{{archive.title}}</p>
+      <p>{{archive.intro}}</p>
     </div>
   </div>
 </template>

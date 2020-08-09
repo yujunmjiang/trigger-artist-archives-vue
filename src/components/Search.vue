@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="search-bar">
-      <input type="text" id="search-input" placeholder="Search" />
+      <input type="text" id="search-input" placeholder="Search">
     </div>
   </div>
 </template>
